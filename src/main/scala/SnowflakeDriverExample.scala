@@ -10,7 +10,5 @@
     def main(args: Array[String]): Unit = {
       val classpath = System.getProperty("java.class.path")
       System.out.println(classpath)
-      val objectname = System.getProperty("java.object.name")
-      System.out.println(objectname)
     }
   }
