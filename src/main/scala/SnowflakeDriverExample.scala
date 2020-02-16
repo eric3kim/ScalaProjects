@@ -9,6 +9,6 @@
   object SnowflakeDriverExample {
     def main(args: Array[String]): Unit = {
       val classpath = System.getProperty("java.class.path")
-      System.out.println(classpath)
+      System.out.print(classpath)
     }
   }
